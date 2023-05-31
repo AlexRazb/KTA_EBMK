@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resourses/checkbox_check.png</file>
+        <file>resourses/checkbox_uncheck.png</file>
+        <file>resourses/loading.gif</file>
+    </qresource>
+</RCC>

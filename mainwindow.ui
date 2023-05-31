@@ -1,0 +1,3590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1123</width>
+    <height>749</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1123</width>
+    <height>749</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1123</width>
+    <height>749</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_EBMK">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>129</y>
+      <width>130</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>130</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>ЭБМК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_MU1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>179</y>
+      <width>130</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>130</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>МУ-1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_UP">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>229</y>
+      <width>130</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>130</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Устройство питания</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_RK">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>279</y>
+      <width>130</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>130</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>РК или Монит</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_about">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>329</y>
+      <width>130</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>130</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>О программе</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_otstup">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>130</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>130</width>
+      <height>127</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_otstup1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>379</y>
+      <width>130</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>130</width>
+      <height>340</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>110</y>
+      <width>621</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{border:none;}
+
+QScrollBar:vertical {
+    width: 10px; /* ширина полосы прокрутки */
+    background-color: #fff; /* цвет фона полосы прокрутки */
+	border:none;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #dcdcdc; /* цвет фона ползунка прокрутки */
+    min-height: 20px; /* минимальная высота ползунка прокрутки */
+	border:none;
+}
+
+</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>0</y>
+      <width>621</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox{
+background-color:#fff;
+border:1px solid #333;
+border: none;
+}</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton_Start_Stop">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Старт</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Clear">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>20</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Очистить</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_cycle">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>25</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Цикл</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Save">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>20</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Сохранить</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>25</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+background-color:#fff;
+border: none;
+border-radius:5px;
+border:1px solid #333;
+}</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>№</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>86</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ход работы:</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>-1</y>
+      <width>371</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>50</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_EBMK">
+     <attribute name="title">
+      <string>ЭБМК</string>
+     </attribute>
+     <widget class="QCheckBox" name="checkBox_EBMK_MIEA">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>55</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_MIEA">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>MIEA-1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASV_SIN_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>110</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСВ sin (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASV_SIN_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>80</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСВ sin (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASV_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>140</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСВ (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_15V">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>170</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Питание датчиков +15В</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_PRIBL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>230</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Датчики приближения (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_PRIBL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>200</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Датчики приближения (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASP_SKVT_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>260</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСП СКВТ (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASP_SKVT_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>290</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСП СКВТ (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_DAVL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>320</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Датчик давления (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_RKP_0_28_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>380</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП 0/28 Обрыв (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_RKP_0_28_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>350</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП 0/28 Обрыв (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_MIEA_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>50</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASV_SIN_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>80</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASV_SIN_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>110</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASV_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>140</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_15V_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>170</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_PRIBL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>200</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_PRIBL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>230</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASP_SKVT_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>260</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_ASP_SKVT_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>290</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_DAVL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>320</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_RKP_0_28_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>350</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EBMK_RKP_0_28_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>380</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_ASV_SIN_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>85</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_ASV_SIN_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>115</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_ASV_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>145</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_15V">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>175</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_PRIBL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>205</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_PRIBL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>235</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_ASP_SKVT_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>265</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_ASP_SKVT_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>295</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_DAVL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>325</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_RKP_0_28_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>355</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_RKP_0_28_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>385</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>15</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Название</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>15</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Статус</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_EBMK_All">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>15</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_MIEA_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>55</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_ASV_SIN_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>85</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_ASV_SIN_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>115</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_ASV_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>145</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_15V_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>175</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_PRIBL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>205</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_PRIBL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>235</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_ASP_SKVT_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>265</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_ASP_SKVT_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>295</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_DAVL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>325</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_RKP_0_28_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>355</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_EBMK_RKP_0_28_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>385</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_MU1">
+     <attribute name="title">
+      <string>МУ-1</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_MU1_ASV_SIN_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>80</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСВ sin (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_MIEA">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>MIEA-1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASV_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>140</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСВ (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_PRIBL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>170</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Датчики приближения (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASP_SKVT_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>230</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСП СКВТ (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASP_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>290</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСП (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_DAVL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>350</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Датчик давления (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKV_TTL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>500</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКВ ТТЛ (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_TTL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>530</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП ТТЛ (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_OUT_PWM_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>590</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Выходные ШИМ (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASV_SIN_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>110</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСВ sin (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_OZU">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>620</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ОЗУ</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_PZU">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>650</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ПЗУ</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_REGISTRATOR">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>680</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Регистратор</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_PRIBL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>200</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Датчики приближения (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASP_SKVT_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>260</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСП СКВТ (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASP_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>320</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСП (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_0_28_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>380</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП 0/28 Обрыв (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_0_28_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>410</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП 0/28 Обрыв (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_28_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>470</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП +28В Обрыв (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_28_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>440</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП +28В Обрыв (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_TTL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>560</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП ТТЛ (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_MIEA">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>55</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_ASV_SIN_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>85</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_ASV_SIN_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>115</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_ASV_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>145</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_PRIBL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>175</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_PRIBL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>205</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_ASP_SKVT_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>235</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_ASP_SKVT_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>265</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_ASP_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>295</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_ASP_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>325</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_DAVL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>355</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_RKP_0_28_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>385</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_RKP_0_28_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>415</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_RKP_28_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>445</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_RKP_28_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>475</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_RKV_TTL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>505</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_RKP_TTL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>535</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_RKP_TTL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>565</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_OUT_PWM_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>595</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_OZU">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>625</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_PZU">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>655</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_REGISTRATOR">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>685</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_MIEA_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>50</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASV_SIN_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>80</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASV_SIN_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>110</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASV_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>140</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_PRIBL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>170</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_PRIBL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>200</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASP_SKVT_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>260</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASP_SKVT_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>230</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_0_28_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>410</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKV_TTL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>500</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASP_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>290</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_28_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>470</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_28_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>440</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_ASP_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>320</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_0_28_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>380</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_DAVL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>350</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_PZU_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>650</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_TTL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>530</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_REGISTRATOR_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>680</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_RKP_TTL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>560</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_OZU_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>620</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_MU1_OUT_PWM_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>590</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>15</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Название</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>15</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Статус</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_MU1_All">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>15</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_MIEA_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>55</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_ASV_SIN_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>85</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_ASV_SIN_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>115</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_ASV_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>145</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_PRIBL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>175</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_PRIBL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>205</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_ASP_SKVT_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>235</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_ASP_SKVT_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>265</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_ASP_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>295</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_ASP_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>325</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_DAVL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>355</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_RKP_0_28_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>385</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_RKP_0_28_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>415</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_RKP_28_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>445</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_RKP_28_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>475</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_RKV_TTL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>505</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_RKP_TTL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>535</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_RKP_TTL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>565</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_OUT_PWM_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>595</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_OZU_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>625</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_PZU_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>655</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_MU1_REGISTRATOR_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>685</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_UP">
+     <attribute name="title">
+      <string>УП</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_UP_15V">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Питание датчиков +15В</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_KRKV_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>80</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>KRKV (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_KRKV_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>110</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>KRKV (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_OUT_PWM_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>140</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Выходные ШИМ (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_RKP_TTL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>200</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП ТТЛ (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_RKP_TTL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>170</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>РКП ТТЛ (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_ASP_Ind">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>260</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСП (Инд)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_ASP_Kom">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>230</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>АСП (Ком)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_OUT_PWM_EXO">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>290</y>
+        <width>240</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Выходные ШИМ эхо</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_15V">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>55</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_KRKV_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>85</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_KRKV_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>115</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_OUT_PWM_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>145</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_RKP_TTL_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>175</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_RKP_TTL_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>205</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_ASP_Kom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>235</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_ASP_Ind">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>265</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_OUT_PWM_EXO">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>295</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_15V_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>50</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_KRKV_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>80</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_KRKV_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>110</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_OUT_PWM_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>140</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_RKP_TTL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>170</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_RKP_TTL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>200</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_ASP_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>230</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_ASP_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>260</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UP_OUT_PWM_EXO_status">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>290</y>
+        <width>50</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>15</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Статус</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>15</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Название</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_UP_All">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>15</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_UP_15V_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>55</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_UP_KRKV_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>85</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_UP_KRKV_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>115</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_UP_OUT_PWM_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>145</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_UP_RKP_TTL_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>175</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_UP_RKP_TTL_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>205</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_UP_ASP_Kom_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>235</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_UP_ASP_Ind_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>265</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_UP_OUT_PWM_EXO_status">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>295</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_RK">
+     <attribute name="title">
+      <string>Монит</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_about">
+     <attribute name="title">
+      <string>О программе</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
